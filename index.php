@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <img src="php/kuva1.jpeg">
+    <img src="php/kuva2.jpeg">
+    <img src="php/kuva3.jpeg">
+    <img src="php/kuva4.jpeg">
 </head>
 <body>
     
