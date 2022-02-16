@@ -5,16 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <img src="php/kuva1.jpeg">
+    <img src="php/kuva2.jpeg">
+    <img src="php/kuva3.jpeg">
+    <img src="php/kuva4.jpeg">
 </head>
 <body>
     <?php
+        $kuva[] = "kuva1.jpeg";
+        $kuva[] = "kuva2.jpeg";
+        $kuva[] = "kuva3.jpeg";
+        $kuva[] = "kuva4.jpeg";
 
-        $imagesDir = 'php/kuvia/';
-        $images = glob($imagesDir . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-        $randomImage = $images[array_rand($images)];
-    
+        echo $kuva[rand(0,3)];
         ?>
     
 </body>
 </html>
+
+
