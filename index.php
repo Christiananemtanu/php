@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <img src="php/kuva1.jpeg">
-    <img src="php/kuva2.jpeg">
-    <img src="php/kuva3.jpeg">
-    <img src="php/kuva4.jpeg">
 </head>
 <body>
-    <?php
-        $kuva[] = "kuva1.jpeg";
-        $kuva[] = "kuva2.jpeg";
-        $kuva[] = "kuva3.jpeg";
-        $kuva[] = "kuva4.jpeg";
+    <img src="php/kuvia/kuva1.jpeg">
+    <img src="php/kuvia/kuva2.jpeg">
+    <img src="php/kuvia/kuva3.jpeg">
+    <img src="php/kuvia/kuva4.jpeg">
 
-        echo $kuva[rand(0,3)];
+    <?php
+        $kuva[] = "kuva1";
+        $kuva[] = "kuva2";
+        $kuva[] = "kuva3";
+        $kuva[] = "kuva4";
+
+    echo $kuva[rand(0,3)];
         ?>
     
 </body>
