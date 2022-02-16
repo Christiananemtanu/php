@@ -11,6 +11,23 @@
     <img src="php/kuva4.jpeg">
 </head>
 <body>
+    <?php
+
+        $imagesDir = 'php/kuvia/';
+        $images = glob($imagesDir . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+        $randomImage = $images[array_rand($images)];
+    
+        ?>
     
 </body>
 </html>
+
+
+$kuva[] = ;
+        $kuva[] = ;
+        $kuva[] = ;
+        $kuva[] = ;
+
+        echo $kuva[rand(0,3)];
+
+
